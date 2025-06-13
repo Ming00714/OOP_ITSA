@@ -1,12 +1,14 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
 int main() {
-    float a, b;
+    float a, b, area;
     cin >> a >> b;
-    cout.precision(1);
-    cout << "Triangle area:" << fixed << a*b/2 << endl;
+    area = a * b / 2;
+    
+    cout << "Triangle area:" << fixed << setprecision(1) << area << "\n";
 
     return 0;
 }
