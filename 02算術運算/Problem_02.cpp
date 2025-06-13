@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+    float a, b, c, area;
+    cin >> a >> b >> c;
+    area = (a+b)*c/2;
+    
+    cout << "Trapezoid area:" << fixed << setprecision(1) << area << "\n";
+
+    return 0;
+}
