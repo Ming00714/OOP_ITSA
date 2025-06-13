@@ -7,9 +7,9 @@ int main() {
     int n;
     double a;
     cin >> n;
-    for(int i = 0; i < n; i++) {
+    for(int i=0; i<n; i++) {
         cin >> a;
-        cout << fixed << setprecision(1) << round(a * a * 10) / 10.0 << endl;
+        cout << fixed << setprecision(1) << round(a*a*10)/10.0 << endl;
     }
     return 0;
 }
